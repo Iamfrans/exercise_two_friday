@@ -19,13 +19,18 @@ public class Exercise_two_friday {
          int n1 = dato.nextInt();
          System.out.println("Ingrese el segundo valor");
          int n2 = dato.nextInt();
+         if (n1!=n2){
+             System.out.println(n1 +"!=" +n2 );
+             }
          if (n1>n2){
              System.out.println(n1 +">" +n2 );
              }
-         else(n1<n2){
+         if(n1<n2){
              System.out.println(n1 +"<" +n2 );
              }
-         elif()
+         if(n1==n2){
+             System.out.println(n1 +"=" +n2 );
+             }
     }
     
 }
